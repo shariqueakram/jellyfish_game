@@ -44,3 +44,15 @@ main{
   display: flex;
   z-index: -1;
 }
+
+.gameUI{
+  width: 100%;
+  height: 100%;
+  background-color: var(--dkclr);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
