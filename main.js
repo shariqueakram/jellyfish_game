@@ -134,7 +134,7 @@ class GameScene extends Phaser.Scene{
   }
 
   showFloatingText(message, x, y, isScoreText = true) {
-    const textColor = isScoreText ? '#2ecc71' : '#ffffff'; // Seaweed green for score, white for other text
+    const textColor = isScoreText ? '#97ed3c' : '#ffffff'; // Need to workshop this color, not quite seaweed green
     const text = this.add.text(x, y, message, {
       font: '24px Arial',
       fill: textColor
