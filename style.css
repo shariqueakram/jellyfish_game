@@ -45,7 +45,7 @@ main{
   z-index: -1;
 }
 
-.gameUI{
+.gameUI {
   width: 100%;
   height: 100%;
   background-color: var(--dkclr);
@@ -55,4 +55,36 @@ main{
   align-items: center;
   z-index: 2;
 }
+.gameUI *{
+  text-align: center;
+  margin-top: 5px;
+}
 
+#gameStartDiv{
+  display: flex;
+}
+
+#gameEndDiv{
+  display: none;
+}
+
+#gameStartBtn{
+  display: inline-block;
+  width: 100px;
+  padding: 8px 15px;
+  margin: 20px 0;
+  text-align:center;
+  font-family: inherit;
+  border-radius: 10px;
+}
+
+#gamestartBtn{
+  margin-top: 0;
+}
+
+#gameStartBtn:hover{
+  background-color: var(--dkclr);
+  border: 1px solid var(--liClr);
+  color: var(--liClr);
+  cursor:pointer;
+}
